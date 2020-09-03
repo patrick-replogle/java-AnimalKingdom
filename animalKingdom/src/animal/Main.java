@@ -6,6 +6,7 @@ import java.util.ArrayList;
 
 public class Main
 {
+    // function to filter list using CheckAnimal interface
     private static List<Animal> filterAnimals(List<Animal> animals, CheckAnimal tester)
     {
         List<Animal> tempList = new ArrayList<>();
